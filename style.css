@@ -82,8 +82,8 @@ input[type="radio"]:checked +.form-control{
     flex-direction: column;
     align-items: center;
     background-color: #212832;
-    width: 350px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
     border-radius: 20px;
     padding: 30px;
     margin: 70px auto;
@@ -113,4 +113,11 @@ input[type="radio"]:checked +.form-control{
     text-decoration: none;
     color: #959EAC;
     font-weight: 700;
+}
+
+#smileyRating5, #smileyRating4, #smileyRating3, #smileyRating2, #smileyRating1 {
+    display: none;
+    font-size: 50px;
+    margin: -15px;
+    justify-content: center;
 }
