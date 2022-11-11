@@ -116,8 +116,14 @@ input[type="radio"]:checked + .form-control {
 
 .attribution a {
     text-decoration: none;
-    color: #959EAC;
+    color: #FB7413;
     font-weight: 700;
+}
+
+.attribution {
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 #smileyRating5, #smileyRating4, #smileyRating3, #smileyRating2, #smileyRating1 {
