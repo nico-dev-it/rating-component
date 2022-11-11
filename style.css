@@ -22,7 +22,7 @@ p {
 }
 
 .starIcon {
-    background-color:  #333f4b;
+    background-color: #333f4b;
     padding: 10px;
     border-radius: 50px;
 }
@@ -34,7 +34,7 @@ p {
 }
 
 .form-control {
-    background-color:  #333f4b;
+    background-color: #333f4b;
     padding: 10px;
     border-radius: 60px;
     border: 0;
@@ -65,6 +65,7 @@ p {
     background-color: #FFFFFF;
     color: #FB7413;
 }
+
 button {
     cursor: pointer;
 }
@@ -72,7 +73,8 @@ button {
 input[type="radio"] {
     appearance: none;
 }
-input[type="radio"]:checked +.form-control{
+
+input[type="radio"]:checked + .form-control {
     background-color: #FB7413;
     color: #FFFFFF;
 }
@@ -91,10 +93,11 @@ input[type="radio"]:checked +.form-control{
 
 .thankYouContent {
     text-align: center;
+    color: #FB7413;
 }
 
 #ratingDisplay {
-    background-color:  #333f4b;
+    background-color: #333f4b;
     padding: 10px;
     border-radius: 60px;
     border: 0;
