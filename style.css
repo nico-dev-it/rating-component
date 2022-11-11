@@ -73,7 +73,7 @@ input[type="radio"] {
     appearance: none;
 }
 input[type="radio"]:checked +.form-control{
-    background-color: orange;
+    background-color: #FB7413;
     color: #FFFFFF;
 }
 
@@ -98,7 +98,9 @@ input[type="radio"]:checked +.form-control{
     padding: 10px;
     border-radius: 60px;
     border: 0;
-    color: #959EAC;
+    width: 300px;
+    margin-left: 40px;
+    color: #FB7413;
     text-align: center;
 }
 
@@ -120,4 +122,18 @@ input[type="radio"]:checked +.form-control{
     font-size: 50px;
     margin: -15px;
     justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .thankYouCard {
+        width: 300px;
+    }
+
+    #ratingDisplay {
+        margin-left: 5px;
+    }
+
+    .ratingCard {
+        width: 300px;
+    }
 }
