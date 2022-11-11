@@ -1,0 +1,107 @@
+body {
+    background-color: #121417;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #959EAC;
+}
+
+.ratingCard {
+    background-color: #212832;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 70px auto;
+}
+
+.starIcon {
+    background-color:  #333f4b;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.ratingNumber {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px 5px 0 -30px;
+}
+
+.form-control {
+    background-color:  #333f4b;
+    padding: 10px;
+    border-radius: 60px;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    color: #959EAC;
+    text-align: center;
+}
+
+.form-control:hover {
+    background-color: #959EAC;
+    color: #ffffff;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FB7413;
+    color: #ffffff;
+}
+
+.submit:hover {
+    background-color: #FFFFFF;
+    color: #FB7413;
+}
+button {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    appearance: none;
+}
+input[type="radio"]:checked +.form-control{
+    background-color: orange;
+    color: #FFFFFF;
+}
+
+.thankYouCard {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212832;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 70px auto;
+}
+
+.thankYouCard p {
+    text-align: center;
+}
+
+.attribution {
+    text-align: center;
+    color: #959EAC;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #959EAC;
+    font-weight: 700;
+}
